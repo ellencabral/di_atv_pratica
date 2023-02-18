@@ -7,45 +7,50 @@
     <title>Portfólio: Ellen Cabral</title>
     <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Inter">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Nunito">
     <link href="styles.css" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 </head>
 <body>
-    <header>
-        
-        <div class="square"></div>
-        <div class="title">
-            <img id="logo" src="imagens/ellen-fundoredondo.png">
+    <section id="header">
+        <div class="container-one">
+
+            <div class="circle">
+                <img class="ellen-icon" src="/images/ellen-semfundo.png">
+            </div>
+
             <h1>Ellen Cabral</h1>
-            <h2>Designer e ilustradora</h2>
+            <p>Sou <strong>ilustradora</strong>, <strong>designer</strong> e <strong>desenvolvedora front-end</strong>, 
+                apaixonada por arte e tecnologia.</p>
+            <button>Saiba mais</button>
         </div>
-        <!--
+
+        <div class="container-two">
             <ul id="nav-bar">
                 <li>
-                    <a href="">Início</a>
+                    <a class="nav-link" href="/" aria-current="page">Início</a>
                 </li>
-
                 <li>
-                    <a href="">Projetos</a>
+                    <a class="nav-link" href="">Sobre mim</a>
                 </li>
-
                 <li>
-                    <a href="">Sobre mim</a>
-                </li>
-
-                <li>
-                    <a href="">Contato</a>
+                    <a class="nav-link" href="">Projetos</a>
                 </li>
             </ul>
-        -->
-        
-    </header>
+
+            <div class="socials">
+                <a href=""><i class="fab fa-linkedin fa-4x"></i></a>
+                <a href=""><i class="fab fa-github fa-4x"></i></a>
+                <a href=""><i class="fab fa-behance fa-4x"></i></a>
+            </div>
+        </div>
+    </section>
 
     <section id="about">
 
-        <img src="imagens/ellen.jpg">
-
-        <div class="content">
+        <div class="container">
             <h1>Sobre mim</h1>
 
             <p>Meu nome é Ellen. Sou estudante do segundo semestre do curso de Design Gráfico na Unopar e residente em Pelotas, no Rio Grande do Sul.</p>
@@ -60,83 +65,26 @@
     </section>
     
     <section id="projects">
-        <div class="content">
+
+        <div class="container">
             <h1>Projetos</h1>
 
-            <div class="posts">
+            <div class="card">
+                <img src="">
                 <h2>Posts para instagram de clínica de psicologia</h2>
                 
-                <div class="post">
-                    <img src="imagens/posts/post1-1.png">
-                    <img src="imagens/posts/post1-2.png">
-                    
-                </div>
-        
-                <div class="post">
-                    <img src="imagens/posts/post2-1.png">
-                    <img src="imagens/posts/post2-2.png">
-                </div>
-    
-                <div class="post">
-                    <img src="imagens/posts/post3.png">
-                </div>
             </div>
 
-            <div class="posts">
+            <div class="card">
+                <img src="">
                 <h2>Folders diversos</h2>
                 
-                <div class="post">
-                    <img src="imagens/folders/folder1-1.png">
-                    <img src="imagens/folders/folder1-2.png">
-                </div>
-                
-                <div class="post">
-                    <img src="imagens/folders/folder2-2.png">
-                    <img src="imagens/folders/folder2-1.png">
-                </div>
-
-                <div class="post">
-                    <img src="imagens/folders/folder3-1.png">
-                    <img src="imagens/folders/folder3-2.png">
-                </div>
             </div>
-            
-            <img src="">
-    
-            <img src="">
         </div>
-    </section>
-
-    <section id="contact">
-        <div class="content">
-            <h1>Contato</h1>
-
-            <p>Considere me enviar uma mensagem através das minhas <strong>redes sociais</strong></p>
-    
-            <div class="socials">
-
-                <a href="https://www.linkedin.com/in/ellen-cabral-93356216b/">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-
-                <a href="https://www.facebook.com/ellenc4bral/">
-                    <i class="fab fa-facebook"></i>
-                </a>
-                
-                <a href="https://instagram.com/ellenc4bral">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </div>
-
-            <p>Ou através do meu <strong>e-mail</strong>:</p>
-    
-            <p><i class="fa fa-envelope"></i>ellencabral2098@gmail.com</p>
-        </div>
-        <img src="imagens/ellen-semfundo.png">
     </section>
 
     <footer>
-        Ellen Cabral © 2022
+        <script src="script.js"></script>
     </footer>
 </body>
 </html>
