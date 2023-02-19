@@ -98,8 +98,8 @@ ul {
 }
 
 .ellen-icon {
-    width: 20rem;
-    height: 20rem;
+    width: 100%;
+    height: 100%;
 }
 
 .circle {
@@ -126,6 +126,63 @@ ul {
 .socials a:hover {
     color: #fff;
     transition: color 1s;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 60rem)
+{
+    .circle {
+        margin-top: 1.5rem;
+        width: 15rem;
+        height: 15rem;
+    }
+
+    #header {
+        flex-direction: column;
+    }
+
+    #header h1 {
+        font-size: 4.5rem;
+    }
+
+    #header p {
+        font-size: 1.4rem;
+    }
+
+    #header button {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        font-size: 2rem;
+        width: 100%;
+        height: 6.5rem;
+    }
+
+    .intro {
+        width: 27rem;
+    }
+
+    .container-one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-two {
+        justify-content: space-around;
+    }
+    .container-one, .container-two {
+        width: 100%;
+    }
+
+    .socials, #nav-bar, .container-one {
+        margin: 0;
+    }
+    
+
+    .socials a:hover {
+        color: #9C27B0;
+    }
 }
 
 /* ABOUT ME */
