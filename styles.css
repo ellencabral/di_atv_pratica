@@ -85,6 +85,15 @@ ul {
     margin-top: 2rem;
 }
 
+/*
+
+#nav-bar.sticky {
+    background: #9C27B0;
+    height: 7rem;
+}
+
+*/
+
 .nav-link {
     font-size: 1.5rem;
     font-weight: bold;
@@ -157,20 +166,21 @@ ul {
         height: 6.5rem;
     }
 
-    .intro {
-        width: 27rem;
-    }
-
     .container-one {
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: 100%;
+    }
+
+    .intro {
+        width: 27rem;
     }
 
     .container-two {
+        margin-top: 2rem;
         flex-direction: column-reverse;
         justify-content: space-around;
-        height: 12.3rem;
     }
     .container-one, .container-two {
         width: 100%;
